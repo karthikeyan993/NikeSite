@@ -48,7 +48,7 @@
     height: 5%;
     padding-top: 0.5%;
     transform: translate(30%,0%);
-    border: outset #e9e9e9 2px;
+    border: outset 2px;
 }
 
 .shop-btn p{
@@ -58,4 +58,18 @@
     font-weight: 700;
     text-align: center;
 }   
+/* Layout 1 footer */
+
+.term-text{
+    display: inline-block;
+    transform: translate(0%,-650%);
+    
+}
+
+.term-text p{
+    color: #6a6a6a;
+    line-height: 100%;
+    font-size: 70%;
+    transform: rotate(270deg);
+}
 
