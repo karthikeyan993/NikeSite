@@ -15,7 +15,7 @@
 
 /* Layout 1 logo */
 
-.layout1  img{
+.shoe {
     height: 85%;
     width: auto;
     margin-left: auto;
@@ -73,3 +73,17 @@
     transform: rotate(270deg);
 }
 
+/* Social icons*/
+
+.soc-list{
+    list-style: none;
+    display: inline-block;
+    transform: translate(2700%,-180%);
+
+}
+
+.soc-ico img{
+    height: 7%;
+    width: auto;
+    padding-bottom: 20%;
+}
