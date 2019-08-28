@@ -5,3 +5,15 @@
     font-size: 20px;
     font-family: sans-serif, helvetica, arial;
 }
+
+.layout1{
+    display: block;
+    background-color: #82F4D3;
+    height: 100vh;}
+
+#bg-shape{
+    border-bottom: 100vh solid #E9E9E9;
+    border-right: 30vh solid transparent;
+    height: 0;
+    width: 60%;
+   }
