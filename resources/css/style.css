@@ -6,14 +6,47 @@
     font-family: sans-serif, helvetica, arial;
 }
 
-.layout1{
-    display: block;
-    background-color: #82F4D3;
-    height: 100vh;}
+/* Layout 1 main class*/
 
-#bg-shape{
+.layout1{
+    background-color: #82F4D3;
+    height: 100vh;
+}
+
+/* Layout 1 BG shape */
+
+.bg-shape{
     border-bottom: 100vh solid #E9E9E9;
     border-right: 30vh solid transparent;
     height: 0;
     width: 60%;
+   }
+
+  /* Shoe imgae alternative*/
+
+  /*
+  .shoe-img img{
+       width: 100%;
+       height: 100%;
+       object-fit: scale-down;
+
+   }
+
+   .shoe-img{
+       width: 60%;
+       height: 300px;
+       display: block;
+       
+   } 
+   */
+
+/* Shoe image*/
+
+   .shoe-img img{
+       width: 400px;
+       max-width: 100%;
+       height: auto;
+       position: relative;
+       top: 150;
+       left: 83%;
    }
