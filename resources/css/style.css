@@ -11,6 +11,7 @@
 .layout1{
     background-color: #82F4D3;
     height: 100vh;
+    display: block;
 }
 
 /* Layout 1 BG shape */
@@ -43,23 +44,127 @@
 /* Shoe image*/
 
    .shoe-img img{
-       width: 480px;
-       max-width: 100%;
-       height: auto;
-       position: relative;
-       top: 150;
-       left: 78%;
+        width: 480px;
+        height: auto;
+        max-width: 100%;
    }
+
+   .shoe-img{
+    display: block;
+    position: relative;
+    top: 100;
+    left: 75%;
+   /* border: 2px red solid; */
+   }
+
+   /* Terms Text*/
 
    .terms-text p{
        font-size: 60%;
        line-height: 1.5em;
-       position: absolute;
-       transform: rotate(270deg);
-       top: -220;
+       max-width: auto;
+       max-height: auto;
+       
    }
 
    .terms-text{
+       transform: rotate(270deg);
        display: block;
-       position: relative;
+       position: absolute;
+       bottom: 200;
+       right: 75%;
+       width: 25%;
+    /*   border: 2px red solid; */
    }
+
+   /* Nike logo*/
+
+/*Nike text*/
+   .nike-design{
+        display: block;
+       /* border: 2px red solid;*/
+        position: relative;
+        bottom: 550;
+        left: 25%;
+        width: 15%;
+        height: 25%;
+   }
+   /*Nike text*/
+   .nike-text h3{
+       line-height: 1em;
+       font-weight: 600;
+       font-size: 450%;
+   }
+
+   .nike-text{
+       display:block;
+       position: absolute;
+   }
+
+   /*Shop bu brands*/
+  
+   .nike-btn{
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    top: 57%;
+    left: 22%;
+}
+
+   .btn-out{
+       display: block;
+       border: 2px solid #a1f7de;
+       width: 95%;
+       height: 80%;
+       top: 15%;
+       position: absolute;
+   }
+
+   .btn-in{
+       display: block;
+       background: #82F4D3;
+       width: 95%;
+       height: 80%;
+       left: 4%;
+       position: absolute;
+   }
+   .btn-in p{
+       text-transform: uppercase;
+       font-size: 70%;
+       font-weight: 700;
+       text-align: center;
+       padding-top: 8%;
+    }
+
+
+    /*shop by brans previous*/
+       
+ /*
+.btn-out{
+    border: 2px solid #a1f7de;
+    height: 25%;
+    width: 70%;
+   position: absolute;
+    top: 70%;
+    left: 20%; 
+}
+
+.btn-in{
+    display: block;
+    background: #82F4D3;
+    position: absolute;
+    height: 25%;
+    width: 70%;
+    top: 65%;
+    left: 22%;
+
+}
+.btn-in p{
+    text-transform: uppercase;
+    font-size: 75%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5%;   
+ }
+ */
