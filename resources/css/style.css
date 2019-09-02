@@ -4,13 +4,199 @@
     box-sizing: border-box;
     font-size: 10px;
     font-family: sans-serif, helvetica, arial;
+
 }
 
 /* #82f4d3 #e9e9e9 #a1f7de (light blue)*/
 
 
-/* Layout 1 main class*/
+/*-----------Layout 1 main class------------*/
 
 .layout1{
-    background-color: #82F4D3;
+    max-width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #82f4d3;
+    position: relative;
+}
+
+/*-- Gradient background --*/
+
+.grey-bg{
+    width: 40%;
+    height: 100%;
+    background-color: #e9e9e9;
+}
+
+.bg-shape{
+    width: 0;
+    height: 0;
+    border-bottom: 500px solid #e9e9e9;
+    border-right: 218.56px solid transparent;
+    /*display: block;*/
+    position: absolute;
+    left: 40%;  
+    bottom: 0;
+}
+
+/*-- Centered Shoe image --*/
+
+.shoe-img{
+    display: block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin-left: 30%;
+}
+
+.shoe-img img{
+    width: 80%; 
+    margin-top: 20%;
+    margin-left: 2%;
+}
+
+/*-- Terms and Nike button --*/
+
+.term-nikelogo{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Terms*/
+
+.term-text{
+    transform: rotate(270deg);
+    margin-top: 110%;
+    float: left;
+}
+
+.term-text p{
+    font-size: 80%;
+    line-height: 140%;
+    color: #aeaeae;
+}
+
+/* Nike logo*/
+
+.nike-design{
+    width: 70%;
+    height: 25%;
+    position: absolute;
+    left: 60%;
+    top: 17%;
+}
+
+.nike-text h3{
+    font-size: 700%; 
+}
+
+/*shop by brands*/
+
+.shop-brand{
+  
+    height: 40%;
+    width: 80%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+.btn-out{
+    border: 2px solid #a1f7de;
+    height: 75%;
+    width: 80%;
+    position: relative;
+    top:0;
+}
+
+.btn-in{
+    background: #82f4d3;
+    height: 75%;
+    width: 80%;
+    position: relative;
+    left: 5%;
+    bottom: 90%;
+}
+
+.btn-in p{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 110%;
+    padding-top: 8%;
+    padding-left: 6%;
+}
+
+/* Social media link*/
+
+.outer-link{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin-left: 80%;
+}
+
+.social{
+    width: 30%;
+    height: 35%;
+    display: block;
+    margin-top: 150%;
+    margin-left: 70%;
+
+}
+
+.social-icons{
+    width: 100%;
+    height: 25%;
+}
+.social-icons img{
+    display: block;
+    width: 50%;
+    height: auto;
+}
+/*--Layout 1 header--*/
+.l1-head{
+    display: block;
+    width: 100%;
+    height: 17%;
+    position: absolute;
+    top: 0;
+}
+
+/* Shop cart*/
+.shop-cart{
+    display: block;
+    width: 20%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.shop-cart img{
+    width: 100%;
+    height: auto;
+    padding: 10% 20%;
+    
+}
+
+/* Menu */
+.menu{
+    display: block;
+    margin-left: 82%;
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+}
+
+.menu img{
+    display: block;
+    margin-top: 7%;
+    width: 80%;
+    height: auto;
+    padding: 20% 20%;
 }
