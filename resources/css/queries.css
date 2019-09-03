@@ -1,0 +1,8 @@
+@media only screen and (max-width: 950px){
+    .nike-design{
+        width: 50%;
+        height: 17%;
+        position: absolute;
+        left: 60%;
+        top: 17%;
+    }
