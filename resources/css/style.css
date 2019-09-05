@@ -93,7 +93,7 @@ body{
 }
 
 .nike-text h3{
-    font-size: 700%; 
+    font-size: 700%;
 }
 
 /*shop by brands*/
@@ -206,7 +206,7 @@ body{
 /*---Layout 2 ----*/
 .layout2{
     max-width: 960px;
-    height:1000px;
+    height:1100px;
     margin: 0 auto;
     background-color: #fff;
 }
@@ -220,6 +220,8 @@ body{
 }
 
 /* Airforce shoe half*/
+
+/*Shoe container*/
 
 .airforce-shoe{
     display: block;
@@ -273,12 +275,14 @@ body{
     left: 50%;
 }
 
+/* Air force text container*/
+
 .af-text-btn{
     display: block;
     height: 40%;
     width: 80%;
     position:absolute;
-    left:-10%;
+    left:-11%;
     top: 40%;
 }
 .af-heading h3{
@@ -297,19 +301,7 @@ body{
     font-size: 110%;
     line-height: 150%;
 }
-}
 
-/*-- Division 2 --*/
-
-.pop-arrival{
-    height:333.33px;
-}
-
-/*-- Division 3 --*/
-
-.fall-collection{
-    height:333.33px;
-}
 
 .view-btn{
     display: block;
@@ -319,23 +311,526 @@ body{
 }
 .view-out{
     width: 80%;
-    height: 70%;
-    border:1.5px #a1f7de solid;
+    height: 60%;
+    border:1px #a1f7de solid;
 }
 
 .view-in{
     display: inline-block;
     width: 80%;
-    height: 70%;
+    height: 60%;
     background: #82f4d3;
     position:relative;
-    bottom: 30;
-    left: 7.5%; 
+    bottom: 25;
+    left: 6%; 
 }
 
 .view-in p{
+    font-size: 100%;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 12%;
+}
+
+
+/*-- Division 2 --*/
+
+.pop-arrival{
+    height:333.33px;
+    width: 100%;
+    position: relative;
+
+}
+
+/* Four Containers*/
+
+/*Container Black shoe with Header*/
+
+.pop-black-cont{
+    width: 27.5%;
+    height: 100%;
+}
+
+/*Popular heading*/
+.popular-heading{
+    position:absolute;
+    top: 4%;
+    left: 7%;
+}
+.popular-heading h3{
+    font-size: 230%;
+    font-family: serif;
+    font-weight: 400;
+
+}
+
+/*Black shoe container*/
+.black-shoe-cont
+{
+    display:block;
+}
+.blackshoe-out{
+    display: inline-block;
+    width: 168px;
+    height: 200px;
+    background: #e0e4e677;
+    margin-left: 72px;
+    margin-top: 66.5;
+}
+
+.blackshoe-out img{
+    display: block;
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    padding-left:17px;
+    padding-top: 62px;
+}
+
+/* Black shoe text container*/
+
+.blackshoe-text-cont{
+    width: 100%;
+    height: 66.83px;
+}
+
+.black-nikeshop{
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+
+.black-nike{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+
+.black-nike p{
+    font-size: 110%;
+    padding-top: 28px;
+    padding-left: 72px;
+    font-weight: 500;
+
+}
+
+.black-outdoors{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 50%;    
+}
+
+.black-outdoors p{
+    font-size: 110%;
+    padding-top: 28px;
+    color: #adadad;
+}
+
+.black-price{
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+}
+
+.black-price p{
+    font-size: 160%;
+    padding-left: 72px;
+    padding-top: 10px;
+    color: #aeaeae;
+}
+/*Container navy shoe*/
+
+.pop-navy-cont{
+    display: block;
+    width: 22.5%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 27.5%;
+}
+
+.navyshoe-out{
+    display: inline-block;
+    width: 168px;
+    height: 200px;
+    background: #e0e4e677;
+    margin-left: 24px;
+    margin-top: 66.5;
+}
+
+.navyshoe-out img{
+    display: block;
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    padding-left:17px;
+    padding-top: 62px;
+}
+
+
+/*Navy shoe text container*/
+
+
+.navyshoe-text-cont{
+    width: 100%;
+    height: 66.83px;
+}
+
+.navy-nikeshop{
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+
+.navy-nike{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.navy-nike p{
+    font-size: 110%;
+    padding-top: 28px;
+    padding-left: 24px;
+    font-weight: 500;
+
+}
+
+.navy-outdoors{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 40%;    
+}
+
+.navy-outdoors p{
+    font-size: 110%;
+    padding-top: 28px;
+    color: #adadad;
+}
+
+.navy-price{
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+}
+
+.navy-price p{
+    font-size: 160%;
+    padding-left: 24px;
+    padding-top: 10px;
+    color: #aeaeae;
+}
+
+/*Container Orange shoe*/
+
+.pop-org-cont{
+    width: 22.5%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+}
+
+.orgshoe-out{
+    display: inline-block;
+    width: 168px;
+    height: 200px;
+    background: #e0e4e677;
+    margin-left: 24px;
+    margin-top: 66.5;
+}
+
+.orgshoe-out img{
+    display: block;
+    width: 75%;
+    max-width: 80%;
+    height: auto;
+    margin-left: 10px;
+    padding-left:20px;
+    padding-top: 52px;
+}
+
+
+/*Orange shoe text container*/
+
+.orgshoe-text-cont{
+    width: 100%;
+    height: 66.83px;
+}
+
+.org-nikeshop{
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+
+.org-nike{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.org-nike p{
+    font-size: 110%;
+    padding-top: 28px;
+    padding-left: 24px;
+    font-weight: 500;
+
+}
+
+.org-outdoors{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 40%;    
+}
+
+.org-outdoors p{
+    font-size: 110%;
+    padding-top: 28px;
+    color: #adadad;
+}
+
+.org-price{
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+}
+
+.org-price p{
+    font-size: 160%;
+    padding-left: 24px;
+    padding-top: 10px;
+    color: #aeaeae;
+}
+
+
+
+/*Container Sky blue shoe*/
+
+.pop-sky-cont{
+    width: 27.5%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 72.5%;
+}
+
+.skyshoe-out{
+    display: inline-block;
+    width: 168px;
+    height: 200px;
+    background: #e0e4e677;
+    margin-left: 24px;
+    margin-top: 66.5;
+}
+
+.skyshoe-out img{
+    display: block;
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    padding-left:17px;
+    padding-top: 62px;
+}
+
+
+/*Sky blue shoe text container*/
+
+.skyshoe-text-cont{
+    width: 100%;
+    height: 66.83px;
+}
+
+.sky-nikeshop{
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+
+.sky-nike{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+
+.sky-nike p{
+    font-size: 110%;
+    padding-top: 28px;
+    padding-left: 24px;
+    font-weight: 500;
+
+}
+
+.sky-outdoors{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 33%;    
+}
+
+.sky-outdoors p{
+    font-size: 110%;
+    padding-top: 28px;
+    color: #adadad;
+}
+
+.sky-price{
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+}
+
+.sky-price p{
+    font-size: 160%;
+    padding-left: 24px;
+    padding-top: 10px;
+    color: #aeaeae;
+}
+
+/*-- Division 3 --*/
+
+.fall-collection{
+    width: 100%;
+    height:433.3px;
+   
+}
+
+/* Fall Text div*/
+
+.fall-text-div{
+    width:50%;
+    height: 100%;
+    float:  left;
+}
+
+.fall-cont{
+    width:80%;
+    height: 60%;
+    margin-left: 13%;
+    margin-top: 25%;
+
+}
+
+.fall-text-cont{
+    width: 100%;
+    height: 60%;
+}
+
+.fall-text-head{
+    width:100%;
+    height: 30%;
+}
+
+.fall-text-head h3{
+    font-size: 230%;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.fall-text-para{
+    width:100%;
+    height: 70%;
+}
+
+.fall-text-para p{
+    color: #aeaeae;
+    font-size: 110%;
+    line-height: 160%;
+    padding-top: 2%;
+}
+
+.fall-btn-cont{
+    width:100%;
+    height:25%;
+}
+
+.fall-btn-real-cont{
+    width: 30%;
+    height: 75%;
+    position:relative;
+}
+
+.fall-btn-out{
+    width: 80%;
+    height: 70%;
+    border:1px #a1f7de solid;
+}
+
+.fall-btn-view{
+    display: inline-block;
+    width: 80%;
+    height: 70%;
+    background: #82f4d3;
+    position: absolute;
+    bottom: 6;
+    left: 5%; 
+} 
+
+.fall-btn-view p{
     font-size: 110%;
     font-weight: 500;
     text-align: center;
-    padding-top: 14%;
+    padding-top: 10%;
+}
+
+/* Fall Image div*/
+
+.fall-img-div{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.fall-img-main-cont{
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.fall-img-greenbg{
+    background: #A7E9D5;
+    width:45%;
+    height:65%;
+    float: right;
+    margin-right: 12.5%;
+    margin-top: 31.5%;
+}
+
+.fall-img-out{
+    display: block;
+    position:relative;
+    width:70%;
+    height:80%;
+    background:white;
+    box-shadow: 2px 2px 2px 2px #e0e4e677;
+    
+}
+
+.fall-img-in{
+    width:97.5%;
+    height: 97.5%;
+    background:#FDE6EC;
+    position: absolute;
+    left:4;
+    top:3.5;
+}
+
+.fall-img-in img{
+    height: 97.5%;
+    width: auto;
+    margin-top: 8.5;
 }
