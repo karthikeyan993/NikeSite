@@ -902,3 +902,187 @@ body{
     text-align: center;
     color: #5ee6bf;
 }
+
+/*-------LAYOUT 4----------*/
+
+.layout4{
+    width: 960px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+}
+
+
+/* Blog Image Div*/
+
+.blog-img-div{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+/* Blog image container*/
+
+.blog-img-cont{
+    display: block;
+    width:80%;
+    height: 70%;
+    margin-left: 20%;
+    margin-top: 20%;
+    position: relative;
+}
+
+.blog-img-border{
+    width: 45%;
+    height: 50%;
+    border: 5px #e0e4e646 solid;
+    border-radius: 7.5px;
+}
+
+.blog-img-greenbg{
+    width: 45%;
+    height: 55%;
+    background: #a7e9d5;
+    position: absolute;
+    left: 70%;
+}
+
+.blog-img-greenbg-nike{
+    width: 50%;
+    height:100%;
+    margin-left: 50%; 
+}
+
+.blog-img-greenbg-nike p{
+    position: absolute;
+    transform: rotate(270deg);
+    font-size: 870%;
+    font-weight: 900;
+    top:55;
+    color: #e0e4e63b;
+    right: -85;
+}
+
+.blog-img-main-out{
+    width: 75%;
+    height: 70%;
+    background: #fff;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    box-shadow: 2px 2px 1px 1   px #e0e4e677;
+}
+
+.blog-img-main-in{
+    width: 97%;
+    height: 97%;
+    margin: 1.5% auto 0 auto;
+    overflow: hidden;
+}
+
+.blog-img-main-in img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Blog Text Div*/
+
+.blog-text-div{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.blog-text-head{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    left: -12.5%;
+    padding-top: 10%;
+}
+
+.blog-text-head h3{
+    font-size: 230%;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.blog-text-btn-cont{
+    display: block;
+    margin-top: 20.80%;
+    height: 40%;
+    width: 80%;
+}
+
+/* Blog text container*/
+
+.blog-text-in-cont{
+    width: 100%;
+    height: 75%;
+}
+
+.blog-text-in-head{
+    display: block;
+    width:100%;
+    height: 30%;
+    padding-top: 10%;
+}
+
+.blog-text-in-head p{
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.blog-text-in-para{
+    display: block;
+    width: 100%;
+    height: 70%;
+    padding-top: 5%;
+}
+
+.blog-text-in-para p{
+    color: #aeaeae;
+    font-size: 110%;
+    line-height: 170%;
+
+}
+/* Blog button container*/
+
+.blog-btn-cont{
+    width: 100%;
+    height: 25%;
+}
+
+.blog-btn-in-cont{
+    display: block;
+    width:  30%;
+    height: 100%;
+    margin-left: 70%;
+}
+
+.blog-out-btn{
+    border: 1.5px solid #a1f7de;
+    height: 65%;
+    width: 90%;
+    position: relative;
+    top:0;
+}
+
+.blog-in-btn{
+    background: #82f4d3;
+    height: 65%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    bottom: 50%;   
+}
+
+.blog-in-btn p{
+    font-weight: 400;
+    font-size: 120%;
+    padding-top: 12.5%;
+    text-align: center;
+}
+
