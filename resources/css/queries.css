@@ -1,8 +1,92 @@
-@media only screen and (max-width: 950px){
-    .nike-design{
-        width: 50%;
-        height: 17%;
-        position: absolute;
-        left: 60%;
-        top: 17%;
+@media only screen and (max-width: 955px){
+    .shop-brand{
+        width: 70%;
+        height: 30%;
     }
+
+    .btn-in p{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    
+
+    .nike-text h3{
+        font-size: 500%;
+    }
+
+    .shop-brand{
+        width: 60%;
+        height: 22%;
+    }
+
+    .btn-in p{
+        font-size: 55%;
+    }
+
+    .shoe-img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .shoe-img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+
+@media only screen and (max-width: 675px)
+{
+
+    .shop-brand{
+        width: 70%;
+    }
+    .term-text p{
+        font-size: 60%;
+    }
+
+    .shoe-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .social-icons{
+        height: 15%;
+    }
+    
+}
+
+@media only screen and (max-width: 550px)   
+{
+    .shop-brand{
+        width: 80%;
+        height: 20%;
+    }
+    .btn-in p{
+        font-size: 50%;
+    }
+    .term-text{
+        display: none;
+    }
+
+    .shoe-img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 450px) 
+{
+    .shop-brand{
+        width: 100%;
+    }
+
+    .social-icons{
+        height: 10%;
+    }
+}
