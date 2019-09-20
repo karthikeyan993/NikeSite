@@ -346,12 +346,33 @@ body{
 
 }
 
+
 /* Four Containers*/
+
+
+.pop-box-maincont{
+    width: 90%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
 
 /*Container Black shoe with Header*/
 
 .pop-black-cont{
-    width: 27.5%;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.black-shoe-text{
+    display: block;
+    width: 100%;
     height: 100%;
 }
 
@@ -369,26 +390,31 @@ body{
 }
 
 /*Black shoe container*/
-.black-shoe-cont
-{
-    display:block;
+
+.black-shoe-cont{
+    height: 80%;
 }
+
 .blackshoe-out{
-    display: inline-block;
-    width: 168px;
-    height: 200px;
+    display: block;
+    width: 77.78%;
+    height: 60.04%;
+    position: absolute;
     background: #e0e4e677;
-    margin-left: 72px;
-    margin-top: 66.5;
+    top: 20%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 25% 0;
+    padding-left: 7.5%
+    
 }
 
 .blackshoe-out img{
     display: block;
     width: 80%;
-    max-width: 80%;
-    height: auto;
-    padding-left:17px;
-    padding-top: 62px;
+
 }
 
 /* Black shoe text container*/
@@ -396,40 +422,39 @@ body{
 .blackshoe-text-cont{
     width: 100%;
     height: 66.83px;
+    
 }
 
 .black-nikeshop{
     display: inline-block;
     width: 100%;
     height: 60%;
-    position: relative;
+    
 }
 
 .black-nike{
     display: inline-block;
-    width: 60%;
+    width: 50%;
     height: 100%;
+    padding: 10% 12.5%;
 }
 
 .black-nike p{
     font-size: 110%;
-    padding-top: 28px;
-    padding-left: 72px;
     font-weight: 500;
 
 }
 
 .black-outdoors{
-    display: inline-block;
-    width: 40%;
+    width: 50%;
     height: 100%;
-    position: absolute;
-    left: 50%;    
+    float: right;
+    padding: 10% 0%;
+
 }
 
 .black-outdoors p{
     font-size: 110%;
-    padding-top: 28px;
     color: #adadad;
 }
 
@@ -437,41 +462,46 @@ body{
     display: inline-block;
     width: 100%;
     height: 40%;
+    padding: 3% 12.5%;
 }
 
 .black-price p{
     font-size: 160%;
-    padding-left: 72px;
-    padding-top: 10px;
     color: #aeaeae;
 }
 /*Container navy shoe*/
 
 .pop-navy-cont{
     display: block;
-    width: 22.5%;
+    width: 25%;
     height: 100%;
     position: absolute;
     top: 0%;
-    left: 27.5%;
+    left: 25%;
+}
+
+.navy-shoe-cont{
+    height: 80%;
 }
 
 .navyshoe-out{
-    display: inline-block;
-    width: 168px;
-    height: 200px;
+    display: block;
+    width: 77.78%;
+    height: 60.04%;
+    position: absolute;
     background: #e0e4e677;
-    margin-left: 24px;
-    margin-top: 66.5;
+    top: 20%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 25% 0;
+    padding-left: 7.5%
 }
 
 .navyshoe-out img{
     display: block;
     width: 80%;
-    max-width: 80%;
-    height: auto;
-    padding-left:17px;
-    padding-top: 62px;
 }
 
 
@@ -494,27 +524,24 @@ body{
     display: inline-block;
     width: 50%;
     height: 100%;
+    padding: 10% 12.5%;
 }
 
 .navy-nike p{
     font-size: 110%;
-    padding-top: 28px;
-    padding-left: 24px;
     font-weight: 500;
 
 }
 
 .navy-outdoors{
-    display: inline-block;
     width: 50%;
     height: 100%;
-    position: absolute;
-    left: 40%;    
+    float: right;
+    padding: 10% 0%;
 }
 
 .navy-outdoors p{
     font-size: 110%;
-    padding-top: 28px;
     color: #adadad;
 }
 
@@ -522,19 +549,18 @@ body{
     display: inline-block;
     width: 100%;
     height: 40%;
+    padding: 3% 12.5%;
 }
 
 .navy-price p{
     font-size: 160%;
-    padding-left: 24px;
-    padding-top: 10px;
     color: #aeaeae;
 }
 
 /*Container Orange shoe*/
 
 .pop-org-cont{
-    width: 22.5%;
+    width: 25%;
     height: 100%;
     position: absolute;
     top: 0%;
@@ -542,23 +568,29 @@ body{
 
 }
 
+.org-shoe-cont{
+    height: 80%;
+}
+
 .orgshoe-out{
     display: inline-block;
-    width: 168px;
-    height: 200px;
+    width: 77.78%;
+    height: 60.04%;
+    position: absolute;
     background: #e0e4e677;
-    margin-left: 24px;
-    margin-top: 66.5;
+    top: 20%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 25% 0;
+    padding-left: 7.5%
 }
 
 .orgshoe-out img{
     display: block;
-    width: 75%;
-    max-width: 80%;
-    height: auto;
-    margin-left: 10px;
-    padding-left:20px;
-    padding-top: 52px;
+    width: 72%;
+    
 }
 
 
@@ -573,34 +605,31 @@ body{
     display: inline-block;
     width: 100%;
     height: 60%;
-    position: relative;
 }
 
 .org-nike{
     display: inline-block;
     width: 50%;
     height: 100%;
+    padding: 10% 12.5%;
 }
 
 .org-nike p{
     font-size: 110%;
-    padding-top: 28px;
-    padding-left: 24px;
     font-weight: 500;
 
 }
 
 .org-outdoors{
-    display: inline-block;
     width: 50%;
     height: 100%;
-    position: absolute;
-    left: 40%;    
+    float: right;
+    padding: 10% 0%;
+
 }
 
 .org-outdoors p{
     font-size: 110%;
-    padding-top: 28px;
     color: #adadad;
 }
 
@@ -608,12 +637,11 @@ body{
     display: inline-block;
     width: 100%;
     height: 40%;
+    padding: 3% 12.5%;
 }
 
 .org-price p{
     font-size: 160%;
-    padding-left: 24px;
-    padding-top: 10px;
     color: #aeaeae;
 }
 
@@ -622,29 +650,35 @@ body{
 /*Container Sky blue shoe*/
 
 .pop-sky-cont{
-    width: 27.5%;
+    width: 25%;
     height: 100%;
     position: absolute;
     top: 0%;
-    left: 72.5%;
+    left: 75%;
+}
+
+.sky-shoe-cont{
+    height: 80%;
 }
 
 .skyshoe-out{
     display: inline-block;
-    width: 168px;
-    height: 200px;
+    width: 77.78%;
+    height: 60.04%;
+    position: absolute;
     background: #e0e4e677;
-    margin-left: 24px;
-    margin-top: 66.5;
+    top: 20%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 25% 0;
+    padding-left: 7.5%
 }
 
 .skyshoe-out img{
     display: block;
     width: 80%;
-    max-width: 80%;
-    height: auto;
-    padding-left:17px;
-    padding-top: 62px;
 }
 
 
@@ -659,34 +693,30 @@ body{
     display: inline-block;
     width: 100%;
     height: 60%;
-    position: relative;
 }
 
 .sky-nike{
     display: inline-block;
-    width: 40%;
+    width: 50%;
     height: 100%;
+    padding: 10% 12.5%;
 }
 
 .sky-nike p{
     font-size: 110%;
-    padding-top: 28px;
-    padding-left: 24px;
     font-weight: 500;
 
 }
 
 .sky-outdoors{
-    display: inline-block;
-    width: 60%;
+    width: 50%;
     height: 100%;
-    position: absolute;
-    left: 33%;    
+    float: right;
+    padding: 10% 0%;
 }
 
 .sky-outdoors p{
     font-size: 110%;
-    padding-top: 28px;
     color: #adadad;
 }
 
@@ -694,12 +724,11 @@ body{
     display: inline-block;
     width: 100%;
     height: 40%;
+    padding: 3% 12.5%;
 }
 
 .sky-price p{
     font-size: 160%;
-    padding-left: 24px;
-    padding-top: 10px;
     color: #aeaeae;
 }
 
